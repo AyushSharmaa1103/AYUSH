@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitZone Gym</title>
+  <link rel="stylesheet" href="MSE1AYUSH22.css">
+     <script src="MSE1AYUSH22.css"></script>
+</head>
+<body>
+
+  
+  <header class="navbar">
+    <h2 class="logo">FitZone</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#programs">Programs</a>
+      <a href="#membership">Membership</a>
+      <a href="#bmi">BMI</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  
+  <section class="hero" id="home">
+    <h1>Build Your Body. Change Your Life.</h1>
+    <p>Join FitZone and train with expert coaches.</p>
+    <a href="#membership" class="btn">Join Now</a>
+  </section>
+
+ 
+  <section class="section" id="programs">
+    <h2>Our Programs</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Strength Training</h3>
+        <p>Build muscle with weights and machines.</p>
+      </div>
+      <div class="card">
+        <h3>Cardio</h3>
+        <p>Improve stamina with running and cycling.</p>
+      </div>
+      <div class="card">
+        <h3>Yoga</h3>
+        <p>Improve flexibility and reduce stress.</p>
+      </div>
+      <div class="card">
+        <h3>Zumba</h3>
+        <p>Fun dance workouts to burn calories.</p>
+      </div>
+      <div class="card">
+        <h3>Boxing</h3>
+        <p>Full body workout with boxing basics.</p>
+      </div>
+      <div class="card">
+        <h3>Diet Guidance</h3>
+        <p>Simple meal plans from our experts.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section gray" id="workout">
+    <h2>Weekly Workout Plan</h2>
+    <ul class="plan-list">
+      <li>Monday - Chest and Triceps</li>
+      <li>Tuesday - Back and Biceps</li>
+      <li>Wednesday - Legs</li>
+      <li>Thursday - Cardio</li>
+      <li>Friday - Shoulders and Abs</li>
+      <li>Saturday - Yoga</li>
+      <li>Sunday - Rest</li>
+    </ul>
+  </section>
+
+  
+  <section class="section" id="membership">
+    <h2>Membership Plans</h2>
+    <div class="plans">
+      <div class="plan">
+        <h3>Basic</h3>
+        <p class="price">Rs. 999 / month</p>
+        <p>Gym access</p>
+        <p>Locker</p>
+      </div>
+      <div class="plan">
+        <h3>Standard</h3>
+        <p class="price">Rs. 1999 / month</p>
+        <p>Gym access</p>
+        <p>Group classes</p>
+        <p>Diet chart</p>
+      </div>
+      <div class="plan">
+        <h3>Premium</h3>
+        <p class="price">Rs. 3499 / month</p>
+        <p>Everything in Standard</p>
+        <p>Personal trainer</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section gray" id="bmi">
+    <h2>BMI Calculator</h2>
+    <div class="form-box">
+      <input type="number" id="weight" placeholder="Weight in kg">
+      <input type="number" id="height" placeholder="Height in cm">
+      <button class="btn" onclick="calculateBMI()">Calculate</button>
+      <p id="bmiResult"></p>
+    </div>
+  </section>
+
+  
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="form-box">
+      <input type="text" id="name" placeholder="Your name">
+      <input type="email" id="email" placeholder="Your email">
+      <textarea id="message" rows="4" placeholder="Your message"></textarea>
+      <button class="btn" onclick="sendMessage()">Send</button>
+      <p id="formMsg"></p>
+    </div>
+  </section>
+
+ 
+  <footer class="footer">
+    <p>FitZone Gym | Open Mon - Sat, 5 AM - 10 PM</p>
+    <p>&copy; 2026 FitZone</p>
+  </footer>
+
+  <script src="MSE1AYUSH.js"></script>
+</body>
+</html>
